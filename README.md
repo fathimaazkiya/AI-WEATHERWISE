@@ -16,7 +16,7 @@ demo video link: https://drive.google.com/file/d/19CKy8Rvsw7QsSdBjXtrL50VtYR67lB
 
 ##To Run the Code Successfully
 1. Clone Repo: Standard git clone.
-2. Install Deps: Run npm install (now including axios).
+2. Install Deps: Run npm install (including axios).
 3. Hot-Reload: Install nodemon as dev dependency.
 4. Configure .env: Add MONGO_URI, JWT_SECRET, and all API keys.
 5. Start Server: Execute npm start.
