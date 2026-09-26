@@ -24,3 +24,11 @@ AI WeatherWise is an intelligent RESTful backend API designed to translate raw m
 4. Configure .env: Add MONGO_URI, JWT_SECRET, and all API keys.
 5. Start Server: Execute npm start.
 6. API Flow: Register user, save city, fetch metrics, request insight.
+
+## Necessary Information to Run the Code Successfully
+1. **Clone the Repository:** Run `git clone <repo-url>` and `cd AI-WeatherWise` in your terminal to enter the project directory.
+2. **Install Project Dependencies:** Execute `npm install` to download all core packages including `express`, `mongoose`, `bcryptjs`, `jsonwebtoken`, `cors`, `dotenv`, `@google/genai`, and `axios`.
+3. **Set Up Hot-Reloading:** Install Nodemon locally using `npm install --save-dev nodemon` for automatic server reloads during development.
+4. **Configure Environment Variables:** Create a `.env` file in the root folder containing `PORT`, `MONGO_URI`, `JWT_SECRET`, `GEMINI_API_KEY`, and `OPENWEATHER_API_KEY`.
+5. **Start the Local Server:** Launch the application backend by running `npm start` in your command line.
+6. **Verify API Endpoints:** Test the complete workflow via Thunder Client or Postman by registering a user, saving a favorite location, fetching weather metrics, and requesting an AI recommendation.
